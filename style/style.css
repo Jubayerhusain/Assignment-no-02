@@ -207,7 +207,7 @@ body{
     width: 100%;
     padding: 40px 0px;
     background: rgb(0, 0, 0);
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 /* .habits-content style */
 .main-section
@@ -352,4 +352,42 @@ body{
         top: 280px;
         left: 20px;
         }
+    /* main-section>habits-container */
+    .main-section
+    .habits-container{
+        flex-direction: column;
+    }
+    .main-section
+    .habits-container 
+    .habits-image{
+        flex-direction: column;
+    }
+    .main-section
+    .habits-container
+    .habits-content{
+        width: 100%;
+    }
+    .main-section
+    .habits-container
+    .habits-image .img{
+        width: 50%;
+        margin: 20px 10px;
+    }
+    .main-section
+    .habits-container
+    .habits-image img{
+        width: 100%;
+    }
+    .main-section
+    .habits-container
+    .habits-image h2{
+        font-size: 1.5rem;
+    }
+    .main-section
+    .habits-container
+    .habits-image span{
+        font-size: 1rem;
+    }
+    /* Run an Extra Mile Easily */
+    
 }
