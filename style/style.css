@@ -207,7 +207,6 @@ body{
     width: 100%;
     padding: 40px 0px;
     background: rgb(0, 0, 0);
-    height: 800px;
     border: 2px solid green;
 }
 /* .habits-content style */
@@ -263,7 +262,41 @@ body{
     font-size: 0.8rem;
     color: var(--third-span-color);
 }
-
+/* extra-mile-easily-section */
+.extra-mile-easily-section{
+    display: flex;
+    padding: 30px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    justify-content: space-between;
+}
+.extra-mile-easily-section
+.content{
+    text-align: left;
+    width: 35%;
+}
+.extra-mile-easily-section
+.content h2{
+    color: var(--secondary-color);
+    font-size: 3rem;
+}
+.extra-mile-easily-section
+.content span{
+    padding: 15px 0px;
+    font-size: 0.8rem;
+    display: block;
+    color: var(--third-span-color);
+}
+.extra-mile-easily-section
+.image{
+    width: 40%;
+}
+.extra-mile-easily-section
+.image img{
+    width: 100%;
+    border-radius: 18px;
+    /* height: 312px; */
+}
 
 
 
