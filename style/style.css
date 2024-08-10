@@ -7,16 +7,20 @@
 body{
     font-family: "Inter", sans-serif;
 }
+body h1,h2,h3,h4{
+    color: var(--secondary-color);
+}
 /* all-color */
 :root{
     --primary-color:rgb(230, 83, 60);
     --secondary-color:rgb(255, 255, 255);
     --third-span-color: rgba(255, 255, 255, 0.5);
-/* share */
+}
+    /* share */
 .btn1{
     color: rgb(255, 255, 255);  
     background: rgb(230, 83, 60);
-    border-radius: 20px;
+    border-radius: 20px; 
     padding: 10px 25px;
     font-size: 1.2rem;
     font-weight: 500;
@@ -39,9 +43,11 @@ body{
 }
 /* <!-- header-setion --> */
 .headers-section{
-    width: 100%;
+    width: 90%;
+    margin: auto;
     padding: 40px 0px;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 1) 100%);
+    background-color: #000;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 1) 100%); */
 }
 .navber{
     align-items: center;
@@ -63,7 +69,7 @@ body{
     gap: 30px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 40px;
-    padding: 2px 20px 2px 2px;
+    padding: 2px 0px 2px 2px;
 }
 .navber ul li{
     list-style: none;
@@ -73,6 +79,7 @@ body{
     font-weight: normal;
     color: var(--secondary-color);
     text-decoration: none;
+    padding-left: 35px;
 }
 .navber ul li:first-child a{
     background: var(--primary-color);
@@ -114,6 +121,7 @@ body{
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
     font-weight: normal;
+    display: block;
 }
 .banner-section 
 .banner-content h1 i{
@@ -204,7 +212,8 @@ body{
 
 /* main-section  style*/
 .main-section{
-    width: 100%;
+    width: 90%;
+    margin: auto;
     padding: 40px 0px;
     background: rgb(0, 0, 0);
     /* border: 2px solid green; */
@@ -283,7 +292,7 @@ body{
 .extra-mile-easily-section
 .content span{
     padding: 15px 0px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     display: block;
     color: var(--third-span-color);
 }
@@ -297,11 +306,462 @@ body{
     border-radius: 18px;
     /* height: 312px; */
 }
+/* Trainings and experiance section */
+.trainings-and-experiance{
+    padding: 30px;
+    margin-top: 2rem;
+}
+.trainings-and-experiance .content{
+    width: 60%;
+    margin-bottom: 2.5rem;
+}
+.trainings-and-experiance
+.content h2{
+    font-size: 3rem;
+    margin: 1.5rem 0rem;
+    color: var(--secondary-color);
+}
+.trainings-and-experiance
+.content span{
+    font-size: 1rem;
+    color: var(--third-span-color);
+}
+.trainings-and-experiance
+.experiance-image{
+    display: flex;
+}
+.trainings-and-experiance
+.experiance-image .image{
+    height: 12rem;
+}
+.trainings-and-experiance
+.experiance-image .exercise1{
+    width: 25%;
+    background-image: url(../images/exercise1.jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.trainings-and-experiance
+.experiance-image .exercise2{
+    width: 45%;
+    background-image: url(../images/exercise2.png);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.trainings-and-experiance
+.experiance-image .exercise3{
+    width: 30%;
+    background-image: url(../images/exercise3.png);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.trainings-and-experiance
+.experiance-image .exercise4{
+    width: 40%;
+    background-image: url(../images/exercise4.png);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.trainings-and-experiance
+.experiance-image .exercise5{
+    width: 27%;
+    background-image: url(../images/exercise5.jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.trainings-and-experiance
+.experiance-image .exercise6{
+    width: 33%;
+    background-image: url(../images/exercise6.jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.trainings-and-experiance
+.experiance-image .image
+.image-title{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid rgb(245, 202, 13); */
+}
+.trainings-and-experiance
+.experiance-image .image
+.image-title h3 {
+    position: absolute;
+}
+.trainings-and-experiance
+.experiance-image .exercise1
+.image-title {
+    background-color: rgba(4, 255, 247, 0.4);
+    position: relative;
+}
+.trainings-and-experiance
+.experiance-image .exercise1
+.image-title h3 {
+    bottom: 20px;
+    left: 20px;
+    color: #000;
+}
+.trainings-and-experiance
+.experiance-image .exercise2
+.image-title {
+    background-color: rgba(231, 39, 39, 0.4);
+    position: relative;
+}
+.trainings-and-experiance
+.experiance-image .exercise2
+.image-title h3 {
+    top: 20px;
+    left: 20px;
+    color: var(--secondary-color);
+}
+.trainings-and-experiance
+.experiance-image .exercise3
+.image-title {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+.trainings-and-experiance
+.experiance-image .exercise3
+.image-title h3 {
+    bottom: 20px;
+    left: 20px;
+    color: var(--secondary-color);
+}
+.trainings-and-experiance
+.experiance-image .exercise4
+.image-title {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+.trainings-and-experiance
+.experiance-image .exercise4
+.image-title h3 {
+    top: 20px;
+    right: 20px;
+    color: var(--secondary-color);
+}
+.trainings-and-experiance
+.experiance-image .exercise5
+.image-title {
+    background-color: rgba(109, 255, 11, 0.4);
+    position: relative;
+}
+.trainings-and-experiance
+.experiance-image .exercise5
+.image-title h3 {
+    bottom: 20px;
+    left: 20px;
+    color: var(--secondary-color);
+}
+.trainings-and-experiance
+.experiance-image .exercise6
+.image-title {
+    background-color: rgba(92, 231, 250, 0.4);
+    position: relative;
+}
+.trainings-and-experiance
+.experiance-image .exercise6
+.image-title h3 {
+    bottom: 20px;
+    left: 20px;
+    color: var(--secondary-color);
+}
 
+/* bmi-calculator style */
+.bmi-calculator-section{
+    padding: 30px;
+    margin-top: 3rem;
+}
+.bmi-calculator-section
+.bmi-containner{
+    width: 100%;
+}
+/* .bmi-content-style */
+.bmi-calculator-section
+.bmi-containner
+.bmi-content{
+    width: 50%;
+    margin: 30px auto;
+}
+.bmi-calculator-section
+.bmi-containner
+.bmi-content h1{
+    color: var(--secondary-color);
+    font-size: 3.5rem;
+    text-align: left;
+    padding-bottom: 15px;
+}
+.bmi-calculator-section
+.bmi-containner
+.bmi-content span{
+    color: var(--third-span-color);
+    font-size: 1rem;
+    text-align: left;
+}
+/* bmi-calculator-container */
+.bmi-calculator-container{
+    width: 100%;
+    /* height: 500px; */
+    color: aliceblue;
+    background: #272626;
+}
+.bmi-chart-and-calculate{
+    display: flex;
+    justify-content: space-between;
+}
+.bmi-calculator-chart{
+    margin-top: 3rem;
+    padding: 1rem;
+    width: 30%;
+}
+.bmi-calculator-chart
+.title h1{
+    font-size: 1.8rem;
+    text-align: left;
+}
+.bmi-calculator-chart table{
+    border-collapse: collapse;
+    margin-top: 3rem;
+}
+.bmi-calculator-chart table
+.th td{
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    padding: 12px 15px;
+}
+.bmi-calculator-chart table
+tr td{
+    border: 0.3px solid #636262;
+    color: var(--third-span-color);
+    font-size: 1rem;
+    padding: 12px 15px;
+}
+/* bmi-calculat style */
+.bmi-calculat{
+    width: 55%;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+.bmi-calculat
+.bmi-calculat-content h1{
+    font-size: 1.8rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.bmi-calculat
+.bmi-calculat-content span{
+    font-size: 1rem;
+    text-align: left;
+    color: var(--third-span-color);
+}
+/* bmi-input-style */
+.bmi-calculat
+.bmi-input{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+    padding: 2.5rem 0rem;
+}
+.bmi-calculat
+.bmi-input
+input,select{
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    color: var(--third-span-color);
+    background-color: #413e3e;
+}
+.bmi-calculat
+.cal-btn{
+    font-size: 1.2rem;
+    width: 200px;
+    margin-bottom: 3rem;
+}
+#activity{
+    grid-column: span 2;
+}
+/* meet-our-team-section-style */
+.team-container{
+    margin-top: 3rem;
+}
+.team-container
+.team-content{
+    width: 80%;
+    margin: auto;
+}
+.team-container
+.team-content h1{
+    margin: 1.5rem;
+    text-align: center;
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+.team-container
+.team-content span{
+    text-align: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: var(--third-span-color);
+}
+/* .all-trainer */
+.team-container
+.all-trainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #202020;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 1.5rem;
+    margin: 2rem 0rem;
+}
 
+.team-container
+.all-trainer
+.member{
+    border-radius: 1.5rem;
+    /* width: 92%; */
+    height: 280px;
+    position: relative;
+}
+.all-trainer
+.content{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.all-trainer
+.member-content{
+    height: 100%;
+    width: 100%;
+    border-radius: 1.5rem;
+    position: absolute;
+    background-color: rgba(12, 11, 11, 0.4);
+}
+.all-trainer
+.content h2{
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+.all-trainer
+.content span{
+    color: var(--third-span-color);
+    font-size: 1rem;
+}
 
+.team-container
+.member1{
+    background-image: url(../images/trainer1.png);
+    background-size: cover;
+    /* background-position: center; */
+}
+.team-container
+.member2{
+    background-image: url(../images/trainer2.png);
+    background-size: cover;
+    /* background-position: center; */
+}
+.team-container
+.member3{
+    background-image: url(../images/trainer3.png);
+    background-size: cover;
+    /* background-position: center; */
+}
+.team-container
+.member4{
+    background-image: url(../images/trainer4.png);
+    background-size: cover;
+    background-position: center;
+}
+.team-container
+.member5{
+    background-image: url(../images/trainer5.png);
+    background-size: cover;
+    /* background-position: center; */
+}
+.team-container
+.member6{
+    background-image: url(../images/trainer6.png);
+    background-size: cover;
+    /* background-position: center; */
+}
 
-
+/* footer-section-style */
+.footer-section{
+    width: 90%;
+    /* height: 350px; */
+    margin: auto;
+    padding: 40px 0px;
+    background: #202020;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 1) 100%); */
+}
+.footer-section
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+}
+.footer-section
+.footer-container
+.section1 h1{
+    color: var(--primary-color);
+    font-size: 5rem;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+.footer-section
+.footer-container
+.section2 h1, .section3 h1{
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+.footer-section
+.footer-container p{
+    color: var(--third-span-color);
+    font-size: 0.8rem;
+    padding: 10px 0px;
+}
+.footer-section
+.footer-container
+.section1{
+    width: 40%;
+}
+.footer-section
+.footer-container ul{
+    color: var(--secondary-color);
+}
+.footer-section
+.footer-container ul li{
+    font-size: 1.5rem;
+    font-weight: normal;
+    list-style: none;
+    color: var(--third-span-color);
+    padding: 0.6rem 0;
+}
+.bottom{
+    width: 90%;
+    margin: auto;
+    color: var(--third-span-color);
+    padding: 2rem;
+}
+.bottom span{
+    border-top: 2px solid rgb(66, 66, 66);
+    display: block;
+    width: 90%;
+    margin: auto;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 3rem;
+}
 
 /* responsive-desing */
 /* responsive-desing */
