@@ -892,11 +892,12 @@ input,select{
     }
     .extra-mile-easily-section
     .content h2{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .extra-mile-easily-section
     .content span{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
     }
     .extra-mile-easily-section
     .content button{
@@ -904,6 +905,8 @@ input,select{
         font-size: 1.8rem;
         padding: 15px;
         border-radius: 40px;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
     }
     .extra-mile-easily-section
     .image{
