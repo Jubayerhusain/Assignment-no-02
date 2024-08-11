@@ -975,4 +975,54 @@ input,select{
             width: 60%;
             height: 170px;
     }
+    /* bmi-calculato */
+    /* bmi-calculato */
+    .bmi-calculator-section {
+        padding: 0px;
+    }
+    .bmi-calculator-section .bmi-containner .bmi-content {
+        width: 92%;
+    }
+    .bmi-calculator-section .bmi-containner .bmi-content h1 {
+        font-size: 2.5rem;
+    }
+    .bmi-calculator-section .bmi-containner .bmi-content span {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+    .bmi-calculator-chart {
+        width: 100%;
+        padding: 0;
+    }
+    .bmi-calculator-chart .title, table{
+        margin-left: 20px;
+    }
+    .bmi-calculator-chart table tr td {
+        font-size: 1.2rem;
+        padding: 15px 18px;
+    }
+    .bmi-calculat {
+        width: 93.5%;
+    }
+    .bmi-calculat .bmi-calculat-content span {
+    }
+    .bmi-calculat .cal-btn {
+        margin-top: 1rem;
+    }
+    .bmi-calculat .bmi-input input, select {
+        padding: 1rem;
+    }
+    .bmi-calculat {
+        padding: 1rem 1rem 0rem 1rem;
+    }
+
+    .team-container .team-content h1 {
+        font-size: 2.5rem;
+    }
+    .bmi-calculat .bmi-calculat-content span,
+    .team-container .team-content span {
+        line-height: 30px;
+        font-size: 1.2rem;
+    }
+
 }
