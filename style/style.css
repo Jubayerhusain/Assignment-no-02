@@ -896,7 +896,7 @@ input,select{
     }
     .extra-mile-easily-section
     .content span{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         line-height: 1.8rem;
     }
     .extra-mile-easily-section
@@ -918,5 +918,61 @@ input,select{
     .image img{
         width: 95%;
         margin-left: 8px;
+    }
+    /* Trainings and experiance section */
+    .trainings-and-experiance-section{
+        padding: 20px;
+        align-items: center;
+    }
+    .trainings-and-experiance{
+        padding: 0%;
+        margin: auto;
+    }
+    .trainings-and-experiance
+    .content{
+        width: 80%;
+    }
+    .trainings-and-experiance
+    .content h2{
+        font-size: 2.5rem;
+        width: 80%;
+    }
+    .trainings-and-experiance
+    .content span{
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+    /* Trainings and experiance section */
+    /* experiance-image */
+    .trainings-and-experiance
+    .experiance-image .exercise3,.exercise6 {
+        display: none;
+    }
+    .trainings-and-experiance
+    .experiance-image .exercise1{
+            width: 50%;
+            height: 170px;
+    }
+    .trainings-and-experiance
+    .experiance-image .exercise2{
+            width: 50%;
+            height: 170px;
+    }
+
+    .trainings-and-experiance
+    .experiance-image .exercise4{
+            width: 40%;
+            height: 170px;
+    }
+    .trainings-and-experiance
+    .experiance-image .exercise4
+    .image-title h3 {
+        padding-top: 110px;
+        padding-right: 35px;
+    }
+    .trainings-and-experiance
+    .experiance-image .exercise5{
+            width: 60%;
+            height: 170px;
     }
 }
