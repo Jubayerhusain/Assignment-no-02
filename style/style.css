@@ -281,6 +281,7 @@ body h1,h2,h3,h4{
     display: flex;
     padding: 30px;
     border-radius: 18px;
+    border-radius: 18px;
     background: rgb(34, 34, 34);
     justify-content: space-between;
 }
@@ -337,7 +338,7 @@ body h1,h2,h3,h4{
 }
 .trainings-and-experiance
 .experiance-image .image{
-    height: 12rem;
+    height: 15rem;
 }
 .trainings-and-experiance
 .experiance-image .exercise1{
@@ -402,7 +403,7 @@ body h1,h2,h3,h4{
 .trainings-and-experiance
 .experiance-image .exercise1
 .image-title {
-    background-color: rgba(4, 255, 247, 0.4);
+    background: rgba(6, 255, 210, 0.5);
     position: relative;
 }
 .trainings-and-experiance
@@ -415,7 +416,7 @@ body h1,h2,h3,h4{
 .trainings-and-experiance
 .experiance-image .exercise2
 .image-title {
-    background-color: rgba(231, 39, 39, 0.4);
+    background: rgba(255, 0, 0, 0.3);
     position: relative;
 }
 .trainings-and-experiance
@@ -428,7 +429,7 @@ body h1,h2,h3,h4{
 .trainings-and-experiance
 .experiance-image .exercise3
 .image-title {
-    background-color: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
     position: relative;
 }
 .trainings-and-experiance
@@ -441,7 +442,7 @@ body h1,h2,h3,h4{
 .trainings-and-experiance
 .experiance-image .exercise4
 .image-title {
-    background-color: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
     position: relative;
 }
 .trainings-and-experiance
@@ -454,7 +455,7 @@ body h1,h2,h3,h4{
 .trainings-and-experiance
 .experiance-image .exercise5
 .image-title {
-    background-color: rgba(109, 255, 11, 0.4);
+    background: rgba(66, 255, 0, 0.3);
     position: relative;
 }
 .trainings-and-experiance
@@ -467,7 +468,7 @@ body h1,h2,h3,h4{
 .trainings-and-experiance
 .experiance-image .exercise6
 .image-title {
-    background-color: rgba(92, 231, 250, 0.4);
+    background: rgba(0, 71, 255, 0.3);
     position: relative;
 }
 .trainings-and-experiance
@@ -514,7 +515,8 @@ body h1,h2,h3,h4{
     width: 100%;
     /* height: 500px; */
     color: aliceblue;
-    background: #272626;
+    background: border-radius: 18px;
+    background: rgb(34, 34, 34);
 }
 .bmi-chart-and-calculate{
     display: flex;
@@ -621,7 +623,8 @@ input,select{
 .all-trainer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background: #202020;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
     gap: 20px;
     padding: 20px;
     border-radius: 1.5rem;
@@ -633,7 +636,7 @@ input,select{
 .member{
     border-radius: 1.5rem;
     /* width: 92%; */
-    height: 280px;
+    height: 350px;
     position: relative;
 }
 .all-trainer
@@ -704,7 +707,7 @@ input,select{
     /* height: 350px; */
     margin: auto;
     padding: 40px 0px;
-    background: #202020;
+    background: #161616fb;
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 1) 100%); */
 }
 .footer-section
@@ -731,7 +734,7 @@ input,select{
 .footer-section
 .footer-container p{
     color: var(--third-span-color);
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     padding: 10px 0px;
 }
 .footer-section
@@ -771,6 +774,9 @@ input,select{
 /* responsive-desing */
 /* responsive-desing */
 @media screen and (max-width: 576px) {
+    .headers-section{
+        width: 100%;
+    }
     .navber{
         justify-content: space-between;
         width: 90%;
@@ -827,23 +833,25 @@ input,select{
     .free-workout{
         padding: 1.5rem;
         top: 90px;
-        right: 20px;
+        right: 2.5rem;
     }
     .banner-container 
     .banner-image 
     .video-tuitorial{
         padding: 1.5rem;
-        top: 280px;
-        left: 20px;
+        top: 320px;
+        left: 2.5rem;
         }
     /* main-section>habits-container */
     .main-section{
+        width: 100%;
         padding-top: 0;
     }
     .main-section
     .habits-container{
         padding-top: 0;
         flex-direction: column;
+        align-items: center;
     }
     .main-section
     .habits-container 
@@ -1004,8 +1012,8 @@ input,select{
     .bmi-calculat {
         width: 93.5%;
     }
-    .bmi-calculat .bmi-calculat-content span {
-    }
+    /* .bmi-calculat .bmi-calculat-content span {
+    } */
     .bmi-calculat .cal-btn {
         margin-top: 1rem;
     }
@@ -1032,6 +1040,9 @@ input,select{
     .footer-section .footer-container {
         padding: 10px 35px 10px 45px;
         /* width: 85%; */
+    }
+    .footer-section{
+        width: 100%;
     }
     .footer-section
     .container {
