@@ -787,6 +787,9 @@ input,select{
         margin:auto;
         flex-direction: column;
     }
+    .headers-section{
+        padding-bottom: 0px;
+    }
     .banner-container
     .banner-content{
         width: 90%;
@@ -798,28 +801,48 @@ input,select{
         flex-direction: column;
     }
     .banner-section 
+    .banner-content h1{
+        font-size: 3rem;
+    }
+    .banner-section 
     .banner-content span{
         display: block;
+    }
+    .banner-section 
+    .banner-content .btn{
+        font-size: 1.3rem;
+        width: 47%;
+        margin-left: 10px;
     }
     .banner-container 
     .banner-image{
         width: 100%;
     }
     .banner-container 
+    .banner-image img{
+        margin-left: 3.5rem;
+    }
+    .banner-container 
     .banner-image 
     .free-workout{
-        top: 50px;
+        padding: 1.5rem;
+        top: 90px;
         right: 20px;
     }
     .banner-container 
     .banner-image 
     .video-tuitorial{
+        padding: 1.5rem;
         top: 280px;
         left: 20px;
         }
     /* main-section>habits-container */
+    .main-section{
+        padding-top: 0;
+    }
     .main-section
     .habits-container{
+        padding-top: 0;
         flex-direction: column;
     }
     .main-section
