@@ -1024,5 +1024,30 @@ input,select{
         line-height: 30px;
         font-size: 1.2rem;
     }
-
+    /* meet-our-team-section */
+    .team-container .all-trainer {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 1rem 3rem;
+    }
+    .footer-section .footer-container {
+        padding: 10px 35px 10px 45px;
+        /* width: 85%; */
+    }
+    .footer-section
+    .container {
+        width: 85%;
+        margin: auto;
+        flex-direction: column;
+    }
+    .footer-section .footer-container .section1{
+        width: 100%;
+    }
+    .footer-section .footer-container .section1 p{
+        font-size: 1.3rem;
+    }
+    .bottom span {
+        width: 100%;
+        margin: 0;
+        font-size: 1.5rem;
+    }
 }
