@@ -20,18 +20,18 @@ body h1,h2,h3,h4{
 .btn1{
     color: rgb(255, 255, 255);  
     background: rgb(230, 83, 60);
-    border-radius: 20px; 
-    padding: 10px 25px;
-    font-size: 1.2rem;
+    border-radius: 30px; 
+    padding: 18px 35px;
+    font-size: 1.5rem;
     font-weight: 500;
     border: none;
 }
 .btn2{
     color: rgb(255, 255, 255);  
     border: 2px solid rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 10px 25px;
-    font-size: 1.2rem;
+    border-radius: 30px;
+    padding: 16px 35px;
+    font-size: 1.5rem;
     font-weight: 500;
     background: transparent;
     margin-left: 15px;
@@ -58,7 +58,7 @@ body h1,h2,h3,h4{
 }
 .navber .logo{
     width: 132px;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: 800;
     color: var(--primary-color);
 }
@@ -69,13 +69,14 @@ body h1,h2,h3,h4{
     gap: 30px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 40px;
-    padding: 2px 0px 2px 2px;
+    padding: 4px 0px 4px 2px;
 }
 .navber ul li{
     list-style: none;
     line-height: 30px;
 }
 .navber ul li a{
+    font-size: 1.5rem;
     font-weight: normal;
     color: var(--secondary-color);
     text-decoration: none;
@@ -112,7 +113,7 @@ body h1,h2,h3,h4{
 }
 .banner-section 
 .banner-content h1 {
-    font-size: 3rem;
+    font-size: 6rem;
     color: var(--secondary-color);
     margin: 20px 0px;
 }
@@ -135,21 +136,23 @@ body h1,h2,h3,h4{
 .banner-container 
 .banner-image{
     width: 45%;
+    height: 80%;
     /* border: 2px solid green; */
     position: relative;
 }
 .banner-container 
 .banner-image img{
-    width: 100%;
-    height: 580px;
+    width: 80%;
+    height: 750px;
+    margin-left: 7rem;
 }
 .banner-container 
 .banner-image 
 .free-workout{
     padding: 15px;
     position: absolute;
-    top: 120px;
-    right: 0;
+    top: 180px;
+    right: 0px;
     border: none;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.2);
@@ -173,7 +176,7 @@ body h1,h2,h3,h4{
 .video-tuitorial{
     position: absolute;
     bottom: 120px;
-    left: 0;
+    left: 20px;
     padding: 10px;
     align-items: center;
     /* border: 2px solid yellow; */
@@ -256,6 +259,8 @@ body h1,h2,h3,h4{
 .main-section
 .habits-image
 .img img{
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     margin: 15px;
 }
@@ -268,7 +273,7 @@ body h1,h2,h3,h4{
 .main-section
 .habits-image
 .img span{
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--third-span-color);
 }
 /* extra-mile-easily-section */
