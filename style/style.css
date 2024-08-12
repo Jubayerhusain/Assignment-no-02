@@ -1311,4 +1311,36 @@ input,select{
     .all-trainer .content h2 {
         font-size: 1rem;
     }
+    /* .our-pricing-section */
+    .our-pricing-section .our-pricing-container .pricing-box .box {
+        margin: 1.5rem 0rem;
+        padding: 10px 0px;
+        
+    }
+    .our-pricing-section .our-pricing-container .pricing-box .box h2 {
+        font-size: 1rem;
+    }
+    .our-pricing-section .our-pricing-container .pricing-box .box h3{
+        font-size: 1.5rem;
+        padding-bottom: 0;
+        padding-top: 1rem;
+    }
+    .our-pricing-section .our-pricing-container .pricing-box .box  ul{
+        padding-left: 15px;
+    }
+    .our-pricing-section .our-pricing-container .pricing-box .box  ul li p{
+    font-size: 0.8rem;
+    }
+    .our-pricing-section .our-pricing-container .pricing-box .box .btn {
+        width: 120px;
+    }
+    .our-pricing-section .our-pricing-container
+    .btn2 {
+        padding: 5px 3px;
+        font-size: 0.9rem;
+        border: 1px solid #ffff;
+    }
+    .our-pricing-section .our-pricing-container .pricing-box .box ul li {
+        margin: 1rem 0rem 1.2rem 1rem;
+    }
 }
