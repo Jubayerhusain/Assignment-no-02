@@ -1177,6 +1177,12 @@ input,select{
     }
     .footer-section 
     .footer-container 
+    .get-started-container 
+    .section {
+        padding-left: 0rem;
+    }
+    .footer-section 
+    .footer-container 
     .section1{
         width: 100%;
     }
