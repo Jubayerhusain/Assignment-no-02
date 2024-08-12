@@ -700,6 +700,82 @@ input,select{
     background-size: cover;
     /* background-position: center; */
 }
+/* our-pricing-section-style */
+.our-pricing-section
+.our-pricing-container{
+    background: rgba(255, 255, 255, 0.1);
+    /* border: 2px solid yellow; */
+    border-radius: 18px;
+    padding: 1rem 0rem;
+}
+.our-pricing-section
+.our-pricing-container h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.our-pricing-section
+.our-pricing-container
+.pricing-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.our-pricing-section
+.our-pricing-container
+.pricing-box
+.box{
+    width: 26%;
+    /* height: 450px; */
+    border-left: 2px solid rgb(242, 243, 240);
+    border-radius: 18px;
+    margin: 1.5rem;
+}
+.our-pricing-section
+.our-pricing-container
+.pricing-box
+.box h2{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem 0rem;
+    border-bottom: 1px solid #ffff;
+    color: var(--primary-color);
+}
+.our-pricing-section
+.our-pricing-container
+.pricing-box
+.box h3{
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 3rem;
+}
+.our-pricing-section
+.our-pricing-container
+.pricing-box
+.box h3 span{
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--secondary-color);
+}
+.our-pricing-section
+.our-pricing-container
+.pricing-box
+.box ul li{
+    color: var(--secondary-color);
+    margin: 1rem 2rem;
+    font-weight: normal;
+}
+.our-pricing-section
+.our-pricing-container
+.pricing-box
+.box .btn{
+    width: 330px;
+}
+.our-pricing-section
+.our-pricing-container
+.pricing-box
+.btn0{
+    margin-top: 2.5rem;
+}
 
 /* footer-section-style */
 .footer-section{
