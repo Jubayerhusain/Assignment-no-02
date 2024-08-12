@@ -1127,6 +1127,24 @@ input,select{
     .member{
     height: 290px;
     }
+    /*our-pricing-section */
+    .our-pricing-section
+    .our-pricing-container h1{
+        font-size: 3rem;
+    }
+    .our-pricing-section
+    .our-pricing-container
+    .pricing-box{
+        flex-direction: column;
+        padding: 1rem 2.5rem;
+    }
+    .our-pricing-section
+    .our-pricing-container
+    .pricing-box .box{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    /* footer-section */
     .footer-section .footer-container {
         padding: 10px 35px 10px 45px;
         /* width: 85%; */
