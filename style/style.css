@@ -1170,3 +1170,67 @@ input,select{
         font-size: 1.5rem;
     }
 }
+/* mediam device specific media query */
+@media screen and (min-width: 576px) and (max-width:990px) {
+    .headers-section,
+    .main-section,
+    .footer-section{
+        width: 100%;
+    }
+    .headers-section
+    .navber{
+        display: flex;
+        justify-content: space-between;
+    }
+    .headers-section
+    .navber h1{
+        font-size: 2.1rem;
+    }
+    .navber ul{
+        border: 1px solid #888888;
+        padding: 5px 10px;
+    }
+    .navber ul li a {
+        padding: 0;
+        font-size: 1rem;
+    }
+    .banner-container {
+        flex-direction: column;
+    }
+    .banner-container
+    .banner-content{
+        width: 100%;
+    }
+    .banner-container .banner-image {
+        width: 90%;
+    }
+    .banner-container .banner-image .free-workout {
+        top: 100px;
+    }
+    .banner-container .banner-image .video-tuitorial {
+        bottom: 160px;
+    }
+    .main-section .habits-content {
+        width: 80%;
+    }
+    .main-section .habits-image .img h2 {
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .main-section .habits-image {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        height: 950px;
+        margin-bottom: 4rem;
+        margin-top: 0;
+        align-items: center;
+    }
+    .main-section
+    .habits-image
+    .img{
+        width: 95%;
+        height: 280px;
+    }
+}
