@@ -1285,5 +1285,19 @@ input,select{
         width: 40%;
         height: 180px
     }
-    
+    /* bmi-calculator-section */
+    .bmi-calculator-section .bmi-containner .bmi-content {
+        width: 100%;
+    }
+    .bmi-chart-and-calculate {
+        flex-direction: column;
+    }
+    .bmi-calculator-chart {
+        width: 100%;
+        padding: 0;
+    }
+    .bmi-calculat {
+        width: 100%;
+        padding: 0;
+    }
 }
