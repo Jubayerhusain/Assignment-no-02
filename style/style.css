@@ -1233,4 +1233,22 @@ input,select{
         width: 95%;
         height: 280px;
     }
+    /* Run an Extra Mile Easily */
+    .extra-mile-easily-section{
+        margin-top: 6rem;
+    }
+    .extra-mile-easily-section .content {
+        width: 55%;
+        padding-right: 1rem;
+    }
+    .extra-mile-easily-section .image{
+        width: 48%;
+        margin-top: 1rem;
+    }
+    .extra-mile-easily-section .image img {
+        width: 100%;
+        border-radius: 18px;
+        height: 280px;
+    }
+    
 }
