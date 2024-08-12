@@ -1250,5 +1250,40 @@ input,select{
         border-radius: 18px;
         height: 280px;
     }
+    /* trainings-and-experiance */
+    .trainings-and-experiance .experiance-image .image {
+        height: 10rem;
+    }
+    .trainings-and-experiance .content {
+        width: 100%;
+    }
+    .trainings-and-experiance-section
+    .trainings-and-experiance .experiance-image .image-title h3 {
+        font-size: 15px;
+    }
+    .trainings-and-experiance .experiance-image .exercise1 {
+        width: 38%;
+        height: 180px;
+    }
+    .trainings-and-experiance .experiance-image .exercise2 {
+        width: 42%;
+        height: 180px
+    }
+    .trainings-and-experiance .experiance-image .exercise3 {
+        width: 35%;
+        height: 180px
+    }
+    .trainings-and-experiance .experiance-image .exercise4 {
+        width: 45%;
+        height: 180px
+    }
+    .trainings-and-experiance .experiance-image .exercise5{
+        width: 40%;
+        height: 180px
+    }
+    .trainings-and-experiance .experiance-image .exercise6 {
+        width: 40%;
+        height: 180px
+    }
     
 }
