@@ -38,16 +38,14 @@ body h1,h2,h3,h4{
 }
 .container{
     width: 80%;
-    margin: 20px auto;
-    padding: 10px 0px;
+    margin: 0px auto;
 }
 /* <!-- header-setion --> */
 .headers-section{
     width: 90%;
     margin: auto;
-    padding: 40px 0px;
-    background-color: #000;
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 1) 100%); */
+    padding: 40px 0px 0px 0px;
+    background: radial-gradient(circle, rgba(172,169,170,1) 0%, rgba(122,123,128,1) 0%, rgba(90,93,101,1) 0%, rgba(64,69,79,1) 0%, rgba(0,0,0,1) 79%);
 }
 .navber{
     align-items: center;
@@ -125,9 +123,12 @@ body h1,h2,h3,h4{
     display: block;
 }
 .banner-section 
-.banner-content h1 i{
+.banner-content h1 p{
     font-family: "Italianno", cursive;
     font-weight: 500;
+    line-height: 10px;
+    font-size: 10rem;
+    display: inline-block;
 }
 .banner-section 
 .banner-content .btn{
@@ -884,6 +885,9 @@ input,select{
     .headers-section{
         padding-bottom: 0px;
     }
+    .banner-section .banner-content h1 p {
+        font-size: 5rem;
+    }
     .banner-container
     .banner-content{
         width: 90%;
@@ -915,6 +919,9 @@ input,select{
     .banner-container 
     .banner-image img{
         margin-left: 2rem;
+    }
+    .banner-container .banner-image img {
+        height: 620px;;
     }
     .banner-container 
     .banner-image 
@@ -1219,6 +1226,9 @@ input,select{
         padding: 0;
         font-size: 1rem;
     }
+    .banner-section .banner-content h1 p {
+        font-size: 8rem;
+    }
     .banner-container {
         flex-direction: column;
     }
@@ -1392,5 +1402,28 @@ input,select{
     }   
     .footer-section .footer-container .get-started-container .section {
         padding-left: 0rem;
+    }
+}
+/* large device specific media query */
+@media screen and (min-width: 990px) and (max-width:1440px) {
+    .headers-section,
+    .main-section,
+    .footer-section{
+        width: 100%;
+    }
+    .banner-container .banner-image img {
+        height: 660px;
+}
+    .banner-container .banner-image img {
+        margin-left: 5rem;
+    }
+    .banner-section .banner-content h1 {
+        font-size: 5rem;
+    }
+    .our-pricing-section .our-pricing-container .pricing-box .box .btn {
+        width: 18rem;
+    }
+    .btn2 {
+        padding: 1rem 1.8rem;
     }
 }
