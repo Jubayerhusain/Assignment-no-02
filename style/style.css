@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 *{
     margin: 0%;
-    padding: 0%;
+    padding: 0%;;
 }
 body{
     font-family: "Inter", sans-serif;
@@ -1055,6 +1055,10 @@ input,select{
     }
     /* Trainings and experiance section */
     /* experiance-image */
+    .trainings-and-experiance .experiance-image .exercise4 .image-title h3 {
+        top: 0px;
+        right: 0px;
+    }
     .trainings-and-experiance
     .experiance-image .exercise3,.exercise6 {
         display: none;
